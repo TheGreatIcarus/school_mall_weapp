@@ -1,0 +1,53 @@
+
+<!--index.wxml-->
+
+<view  class='center'>
+<view  class='zong'>
+     <view  >
+        <text class='zuoyi'> xx校园 </text>
+     </view>
+     <view  class='zuoer' >
+        <text class='zuoer1'>   广告位</text>
+     </view>
+
+ <view  class='section'>
+    <view  class='section1'  bindtap="dingcan">
+        <image  class='ss1'  src='../../images/555.jpg' ></image>
+        <text  class='two'>送订餐</text>
+    </view>
+
+    <view  class='section2'>
+       <view class='section3' bindtap="ganxi" >
+         <image  class='ss'  src='../../images/111.jpg' ></image>
+         <text  class='one'> 干洗店</text>
+       </view>
+       
+       <view class='section4' bindtap="kuaidi">
+          <image  class='ss'  src='../../images/222.jpg' ></image>
+         <text  class='one'> 快递</text>
+       </view>
+       
+       <view class='section4'  bindtap="tiaozao">
+        <image  class='ss'  src='../../images/333.jpg' ></image>
+         <text  class='one'> 跳蚤市场</text>
+       </view>
+      
+       <view  class='section5'  bindtap="waimai">
+          <image  class='ss'  src='../../images/444.jpg' ></image>
+         <text  class='one'> 外卖</text> 
+       </view>
+
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+
+
+</view>
+</view>

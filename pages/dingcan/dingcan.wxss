@@ -1,0 +1,28 @@
+/* pages/dingcan/dingcan.wxss */
+.center{
+  background-color: lightblue;
+  
+
+}
+.item{
+  display: flex;
+  align-items: flex-start;
+  
+  background-color: white;
+  margin-bottom: 30rpx;
+  padding: 20rpx 35rpx;
+  
+}
+.item image{
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+}
+
+.item .meta{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10rpx 0;
+  font-size: 30rpx;
+}

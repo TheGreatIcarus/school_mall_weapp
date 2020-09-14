@@ -1,0 +1,25 @@
+<!--pages/order/order.wxml-->
+<view  class='center'>
+   <view class="switch">
+<view wx:for="{{bar}}" wx:key="{{index}}" bindtap='switchTypes' class="switch_label  {{index==status ? 'active' : ''}}" data-index="{{index}}">{{item}}</view>
+</view>
+<view class="if_no_order" hidden='{{order_list ? true:false}}'>
+
+<view class="section1">  
+<view  class='section'>订单信息</view>
+<view  class='section'>订单1</view>
+<view  class='section'>订单2</view>
+<view  class='section'>订单3</view>
+</view>
+
+<view class="section1">  
+<view  class='section'>接单人信息</view>
+<view  class='section'>联系电话</view>
+<view  class='section'>订单状况</view>
+<view  class='section'>接单人姓名</view>
+</view>
+
+
+</view>
+
+</view>

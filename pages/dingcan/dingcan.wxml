@@ -1,0 +1,23 @@
+<!--pages/dingcan/dingcan.wxml-->
+
+<view  class='center'>
+
+    
+  <navigator wx:for="{{stores}}" wx:key="storeId" class="item" url="">
+      <image  />
+      <view class="meta">
+        <text>
+        商家名称:{{item.storeName}}
+        </text>
+        <text>
+        时间:{{item.storeTime}}
+        </text>
+      </view>
+     
+  </navigator>
+  
+
+
+
+</view>
+
