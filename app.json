@@ -12,7 +12,8 @@
     "pages/waimai/waimai",
     "pages/order1/order1",
     "pages/order2/order2",
-    "pages/order3/order3"
+    "pages/order3/order3",
+    "pages/stores/stores"
   ],
   "window": {
     "backgroundTextStyle": "light",

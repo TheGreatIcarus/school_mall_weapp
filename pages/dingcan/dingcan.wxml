@@ -3,11 +3,11 @@
 <view  class='center'>
 
     
-  <navigator wx:for="{{stores}}" wx:key="storeId" class="item" url="">
+  <navigator wx:for="{{stores}}" wx: wx:key="storeId"  class="item" url="/pages/stores/stores?storeName={{item.storeName}}">
       <image  />
       <view class="meta">
         <text>
-        商家名称:{{item.storeName}}
+        商家名称:{{item.storeTitle}}
         </text>
         <text>
         时间:{{item.storeTime}}
