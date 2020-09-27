@@ -1,2 +1,26 @@
-<!--pages/kuaidi/kuaidi.wxml-->
-<text>pages/kuaidi/kuaidi.wxml</text>
+<view class="main">
+    <form class="" report-submit="false" bindsubmit="formSubmit" bindreset="">
+        <view class="section">
+        <view class="title">收件人：</view>
+        <view class="cell_input">
+        <input name="deliveryFrom"/>
+        </view>
+        </view>
+        <view class="section">
+        <view class="title">收件人电话号码：</view>
+        <view class="cell_input">
+        <input name="deliveryFromPhone"/>
+        </view>
+        </view>
+        <view class="section">
+        <view class="title">收件地址：</view>
+        <view class="deliveryAddress">
+        <input />
+        </view>
+        </view>
+        <view class="section">
+        <button type="primary" form-type="submit">提交订单</button>
+        </view>
+    </form> 
+
+</view>
